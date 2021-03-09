@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../id.ten.grpc/id.ten.grpc.iml" filepath="$PROJECT_DIR$/../id.ten.grpc/id.ten.grpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id.ten.grpc/basic-grpc.iml" filepath="$PROJECT_DIR$/id.ten.grpc/basic-grpc.iml" />
     </modules>
   </component>
 </project>
