@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="basic-grpc" target="6" />
+      <module name="basic-grpc" target="1.5" />
       <module name="id.ten.grpc" target="6" />
     </bytecodeTargetLevel>
   </component>
