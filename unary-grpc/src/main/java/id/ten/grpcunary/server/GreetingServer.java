@@ -13,6 +13,7 @@ public class GreetingServer {
 
         final Server server = ServerBuilder.forPort(PORT)
                 .addService(new GreetServiceImpl())
+                .addService(new ReverseServiceImpl())
                 .build();
 
         server.start();

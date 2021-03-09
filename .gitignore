@@ -1,2 +1,4 @@
-/target
+basic-grpc/target
+unary-grpc/target
 .idea/*
+

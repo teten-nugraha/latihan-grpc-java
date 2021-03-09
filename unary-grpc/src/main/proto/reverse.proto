@@ -1,0 +1,23 @@
+syntax  ="proto3";
+
+package reverse;
+
+option java_package = "id.proto.reverse";
+option java_multiple_files = true;
+
+message Reverse{
+  string originalText  = 1;
+}
+
+message ReverseRequest {
+  Reverse reverse = 1;
+}
+
+message ReverseResponse {
+  string reverseText = 1;
+}
+
+service ReverseService {
+  // Unary
+  rpc Reverse(ReverseRequest) returns (ReverseResponse) {};
+}
