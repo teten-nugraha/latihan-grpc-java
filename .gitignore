@@ -1,4 +1,5 @@
 basic-grpc/target
 unary-grpc/target
+server-stream-grpc/target
 .idea/*
 

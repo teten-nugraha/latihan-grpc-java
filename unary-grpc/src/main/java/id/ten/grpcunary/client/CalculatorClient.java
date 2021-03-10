@@ -3,10 +3,6 @@ package id.ten.grpcunary.client;
 import id.proto.calculator.CalculatorServiceGrpc;
 import id.proto.calculator.SumRequest;
 import id.proto.calculator.SumResponse;
-import id.proto.reverse.Reverse;
-import id.proto.reverse.ReverseRequest;
-import id.proto.reverse.ReverseResponse;
-import id.proto.reverse.ReverseServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 

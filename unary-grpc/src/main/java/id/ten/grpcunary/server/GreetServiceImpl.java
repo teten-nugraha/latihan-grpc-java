@@ -27,4 +27,5 @@ public class GreetServiceImpl extends GreetServiceGrpc.GreetServiceImplBase {
         // complete rpc call
         responseObserver.onCompleted();
     }
+
 }
