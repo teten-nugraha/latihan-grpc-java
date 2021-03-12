@@ -2,5 +2,6 @@ basic-grpc/target
 unary-grpc/target
 server-stream-grpc/target
 client-stream-grpc/target
+bidirectional-grpc/target
 .idea/*
 
